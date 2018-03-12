@@ -1,0 +1,65 @@
+prompt user for full name and set value to fullName
+prompt user for birth month and set value to birthMonth
+
+call birthMonthConvert
+
+prompt user for birth day and set value to birthDay
+prompt user for birth year and set value to birthYear
+
+birthMonthConvert function
+	if birthMonth is an integer
+		if birthMonth === 0
+			call birthMonthRetry
+		else
+			if birthMonth starts with a 0
+				remove 0
+				return number
+			else
+				do nothing
+				return number
+		 
+	elseif birthMonth is a string
+		convert string to all lower case
+		remove all but the first three characters from the string
+		switch statement converts month string to the number value of the month
+			case "jan", birthMonth = 1;
+			case "feb", birthMonth = 2;
+			case "mar", birthMonth = 3;
+			case "apr", birthMonth = 4;
+			case "may", birthMonth = 5;
+			case "jun", birthMonth = 6;
+			case "jul", birthMonth = 7;
+			case "aug", birthMonth = 8;
+			case "sep", birthMonth = 9;
+			case "oct", birthMonth = 10;
+			case "nov", birthMonth = 11;
+			case "dec", birthMonth = 12;
+			if no cases met, call birthMonthRetry
+			return number
+	else
+		call birthMonthRetry
+
+birthMonthRetry function
+	print "I'm sorry, I didn't recognize that as a valid month. Please reenter."
+	prompt user for birthMonth and set value to birthMonth
+	call birthMonthConvert
+
+birthYearValidate function
+	//function validates that year is not in the future
+	//function validates that year is not significantly in the past
+
+birthYearCompact function
+	//function converts a 4 digit year to a 2 digit year
+	//
+
+daysInMonth function
+	//function checks birthMonth using a switch case and assigns value to daysInMonth
+	//if birthMonth is february, function checks birthYear against leap year 
+
+birthDayValidate function
+	//function validates that birthDay !> daysInMonth
+
+digitalRoot (derive single digit from number)
+	//final value modulo9 (%9)
+	//if that equals 0, substitute 9
+
