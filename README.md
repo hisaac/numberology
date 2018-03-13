@@ -1,12 +1,21 @@
 # numberology
 
-This repo contains simple implementations of basic [numerology](https://en.wikipedia.org/wiki/Numerology) in as many programming languages as I can learn. Inspired by [The Hello World Colletion](https://helloworldcollection.github.io).
+This repo contains simple implementations of basic [numerology](https://en.wikipedia.org/wiki/Numerology) in as many programming languages as I can learn. (Inspired by [The Hello World Collection](https://helloworldcollection.github.io))
+
+<div style="text-align: center;">
+  <a href="https://en.wikipedia.org/wiki/Augustine_of_Hippo#/media/File:Gerard_Seghers_(attr\)_-_The_Four_Doctors_of_the_Western_Church,_Saint_Augustine_of_Hippo_(354–430\).jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Gerard_Seghers_%28attr%29_-_The_Four_Doctors_of_the_Western_Church%2C_Saint_Augustine_of_Hippo_%28354–430%29.jpg" alt="A painting by Gerard Seghers called 'The Four Doctors of the Western Church, Saint Augustine of Hippo'"/>
+  </a>
+  <small>"The Four Doctors of the Western Church, Saint Augustine of Hippo" by <a href="https://en.wikipedia.org/wiki/Gerard_Seghers">Gerard Seghers</a></small>
+</div>
 
 ## Huh?
 
 According to [Wikipedia](https://en.wikipedia.org/wiki/Numerology):
 
 > Numerology is the study of the numerical value of the letters in words, names and ideas. It is often associated with the paranormal, alongside astrology and similar divinatory arts.
+
+The ideas numerology is based off of come from [Pythagoras](https://en.wikipedia.org/wiki/Pythagoras) (c. 570–495 BC) — yes, [*the* Pythagorus](https://en.wikipedia.org/wiki/Pythagorean_theorem) — and [Augustine of Hippo](https://en.wikipedia.org/wiki/Augustine_of_Hippo) (A.D. 354–430) whose theories date back to c. 570–495 BC. Modern numerology dates back to the 1930s, and is merely "inspired" by Pythagoras' work. I'm not sure Pythagoras himself would agree with the system and the conclusions it draws.
 
 I don't personally believe in numerology's paranormal aspects, but the first part of that definition, *the study of the numerical value of the letters in words*, provides a fun little programming challenge. The algorithm exercises a lot of the fundamental parts of programming languages: math, string manipulation, iterators, loops, conditional logic, user input, and even date logic if the language supports it.
 
