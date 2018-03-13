@@ -16,14 +16,14 @@ function numberology() {
 }
 
 function promptForBirthName() {
-	rl.question("Enter your full birth name: ", (input) => {
+	rl.question("Enter your full birth name: ", function(input) {
 		console.log("Your name number is:", getNumber(input));
 		promptForBirthDate();
 	});
 }
 
 function promptForBirthDate() {
-	rl.question("Enter your birthdate (numbers only): ", (input) => {
+	rl.question("Enter your birthdate (numbers only): ", function(input) {
 		console.log("Your life number is:", getNumber(input));
 		rl.close();
 	});
