@@ -60,7 +60,7 @@ Links go to the README for that language's implementation
 
 ### Planned Implementations
 
-Links go to the git branch for that language
+Links go to the git branch for that language's implementation
 
 - ActionScript
 - Ada
@@ -101,8 +101,9 @@ Links go to the git branch for that language
 - PL/I
 - PL/SQL
 - Processing
-- Python 2
-- Python 3
+- Python
+  - Python 2
+  - [Python 3](https://github.com/hisaac/numberology/tree/python3)
 - R
 - Racket
 - Ruby
