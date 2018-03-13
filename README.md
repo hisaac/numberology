@@ -10,7 +10,7 @@ This repo contains implementations of basic Numerology in as many programming la
 
 ### Current
 
-- none yet
+- [JavaScript](./code/javascript)
 
 ### Future
 
