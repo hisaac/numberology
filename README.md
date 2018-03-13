@@ -12,7 +12,7 @@ I don't personally believe in Numerology's paranormal aspects, but the first par
 
 ### The Numerology Table
 
-  1  |  a  |  3  |  4  |  5  |  6  |  7  |  8  |  9
+  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9
  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-:
   A  |  B  |  C  |  D  |  E  |  F  |  G  |  H  |  I
   J  |  K  |  L  |  M  |  N  |  O  |  P  |  Q  |  R
