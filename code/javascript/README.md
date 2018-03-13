@@ -1,11 +1,24 @@
-This is some very simple software created with the sole purpose of learning.
+# JavaScript Numberology
 
-The software will do basic numerology equations to compute a single digit number from a user entered birthday and full name.
+I've implemented the Numberology algorithm here in two forms:
 
-Letter to number table:
+- [`numberology-browser.js`](./numberology-browser.js)
+- [`numberology-node.js`](./numberology-node.js)
 
-1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
----------------------------------
-A | B | C | D | E | F | G | H | I
-J | K | L | M | N | O | P | Q | R
-S | T | U | V | W | X | Y | Z
+Because I started my programming journey with JavaScript, I decided to write these scripts first, even though I'm currently a little rusty with the language.
+
+## Install / Run
+
+### Browser
+
+To run the [web browser version of the script](./numberology-browser.js), open the included [`index.html`](./index.html) file in any web browser. You will be prompted by the browser for the required input.
+
+### Node.js
+
+To run the [Node.js version of the script](./numberology-node.js), open the `numberology-node.js` file from the command line, like so:
+
+```shell
+node numberology-node.js
+```
+
+You will be prompted in the command line for your input.
