@@ -2,31 +2,6 @@
 #
 # A Python 3 implementation of simple Numerology algorithms
 
-
-#def get_word_number(word):
-#	wordnum = ""
-#
-#	for character in word:
-#		wordnum += str(get_character_number(character))
-#
-#	return int(wordnum)
-#
-#
-#def get_character_number(character):
-#	if character.isnumeric():
-#		return character
-#
-#	if character.isalpha():
-#		character = character.lower()
-#		return string.index(character)
-#		
-##		ord(character - 96)
-#
-#
-#def find_digital_root(word):
-#	wordnum = get_word_number(word)
-#	return (wordnum - 1) % 9 + 1
-
 def calculate_final_number(number_string):
 	return (int(number_string) - 1) % 9 + 1
 
@@ -49,15 +24,10 @@ def numberology(text):
 	return calculate_final_number(big_number_string)
 
 
-def main():
-	name = input("Please enter your full name: ")
-	name_number = numberology(name)
-	print("Your name number is:", name_number)
+name = input("Please enter your full name: ")
+name_number = numberology(name)
+print("Your name number is:", name_number)
 
-	birthday = input("Please enter your birthday: ")
-	life_number = numberology(birthday)
-	print("Your life number is:", life_number)
-
-
-if __name__ == "__main__":
-	main()
+birthday = input("Please enter your birthday: ")
+life_number = numberology(birthday)
+print("Your life number is:", life_number)
