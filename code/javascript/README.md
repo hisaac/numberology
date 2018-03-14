@@ -1,5 +1,13 @@
 # JavaScript Numberology
 
+<div style="width: 50%;">
+	<p>
+		<a href="https://commons.wikimedia.org/wiki/File:Unofficial_JavaScript_logo_2.svg">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="The JavaScript logo">
+		</a>
+	</p>
+</div>
+
 I've implemented the Numberology algorithm here in two forms:
 
 - [`numberology-browser.js`](./numberology-browser.js)
