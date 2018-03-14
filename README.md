@@ -2,9 +2,9 @@
 
 This repo contains simple implementations of basic [numerology](https://en.wikipedia.org/wiki/Numerology) in as many programming languages as I can learn. (Inspired by [The Hello World Collection](https://helloworldcollection.github.io))
 
-[![A painting by Gerard Seghers, titled "The Four Doctors of the Western Church, Saint Augustine of Hippo"][1]][2]
+[![A painting by Gerard Seghers, titled “The Four Doctors of the Western Church, Saint Augustine of Hippo”][1]][2]
 
-<small>"The Four Doctors of the Western Church, Saint Augustine of Hippo" by [Gerard Seghers](https://en.wikipedia.org/wiki/Gerard_Seghers)</small>
+“The Four Doctors of the Western Church, Saint Augustine of Hippo” by [Gerard Seghers](https://en.wikipedia.org/wiki/Gerard_Seghers)
 
 ## What?
 
@@ -12,15 +12,15 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Numerology):
 
 > Numerology is the study of the numerical value of the letters in words, names and ideas. It is often associated with the paranormal, alongside astrology and similar divinatory arts.
 
-The ideas that numerology is based off of come from [Pythagoras](https://en.wikipedia.org/wiki/Pythagoras) (c. 570–495 BC) — yes, [*the* Pythagorus](https://en.wikipedia.org/wiki/Pythagorean_theorem) — and [Augustine of Hippo](https://en.wikipedia.org/wiki/Augustine_of_Hippo) (A.D. 354–430). Modern numerology came to be in the 1930s, and is merely "inspired" by Pythagoras' work. I'm not sure Pythagoras himself would agree with the system and the conclusions it draws.
+The ideas that numerology is based off of come from [Pythagoras](https://en.wikipedia.org/wiki/Pythagoras) (c. 570–495 BC) — yes, [*the* Pythagorus](https://en.wikipedia.org/wiki/Pythagorean_theorem) — and [Augustine of Hippo](https://en.wikipedia.org/wiki/Augustine_of_Hippo) (A.D. 354–430). Modern numerology came to be in the 1930s, and is merely “inspired” by Pythagoras’ work. I’m not sure Pythagoras himself would agree with the system and the conclusions it draws.
 
-I don't personally believe in numerology's paranormal aspects, but the *the study of the numerical value of the letters in words* makes for a fun programming challenge.
+I don’t personally believe in numerology’s paranormal aspects, but the *the study of the numerical value of the letters in words* makes for a fun programming challenge.
 
 ## Why?
 
-I decided to learn Python recently, and I was looking for an easy programming problem that I could work on to help me learn. The numerology system is just that. It's got some fun and simple arithmetic and language components that are interesting to think about, and interesting to implement within code.
+I decided to learn Python recently, and I was looking for an easy programming problem that I could work on to help me learn. The numerology system is just that. It’s got some fun and simple arithmetic and language components that are interesting to think about, and interesting to implement within code.
 
-Writing it in Python made me want to do the same in the other languages I knew at the time (JavaScript, C#, and Swift), which then made me want to expand the scope outward. I've found that this simple algorithm is a great way to learn the basic numerical and string based methods of a language. And because numerology also deals with birthdates (see the *How?* section below), I can learn a language's built-in date logic as well, if it has any.
+Writing it in Python made me want to do the same in the other languages I knew at the time (JavaScript, C#, and Swift), which then made me want to expand the scope outward. I’ve found that this simple algorithm is a great way to learn the basic numerical and string based methods of a language. And because numerology also deals with birthdates (see the *How?* section below), I can learn a language’s built-in date logic as well, if it has any.
 
 ## How?
 
@@ -36,33 +36,33 @@ In numerology, each letter in the English alphabet is given a numerical value. H
   J  |  K  |  L  |  M  |  N  |  O  |  P  |  Q  |  R
   S  |  T  |  U  |  V  |  W  |  X  |  Y  |  Z  |
 
-The two things we calculate are a person's "Birth Number" and "Life Number".
+The two things we calculate are a person’s “Birth Number” and “Life Number”.
 
-To find a person's "Birth Number", you first convert each letter of the person's full birth name (first, middle, and last) to their numerical value using the chart above. We then add all of those digits together. If the resulting sum has more than one digit, we repeat the summation until we end up with a single digit number. This final single digit number is the person's "Birth Number".
+To find a person’s “Birth Number”, you first convert each letter of the person’s full birth name (first, middle, and last) to their numerical value using the chart above. We then add all of those digits together. If the resulting sum has more than one digit, we repeat the summation until we end up with a single digit number. This final single digit number is the person’s “Birth Number”.
 
 ```plain
 Isaac Daniel Halvorson
 91113 415953 813469165 → 85 → 13 → 4
 ```
 
-The process process of reducing a number down to a single digit is known as finding a number's [digital root](https://en.wikipedia.org/wiki/Digital_root).
+The process process of reducing a number down to a single digit is known as finding a number’s [digital root](https://en.wikipedia.org/wiki/Digital_root).
 
-To find a user's "Life Number", we do the same process, but with the person's birth date. Only the day, month, and year are needed.
+To find a user’s “Life Number”, we do the same process, but with the person’s birth date. Only the day, month, and year are needed.
 
 ```plain
 January 1 1970
       1 1 1970 → 19 → 10 → 1
 ```
 
-I won't go into the supposed significance of each final number, but you can [find lots of information about it online](https://www.google.com/search?client=safari&rls=en&q=numerology&ie=UTF-8&oe=UTF-8) if you're curious.
+I won’t go into the supposed significance of each final number, but you can [find lots of information about it online](https://www.google.com/search?client=safari&rls=en&q=numerology&ie=UTF-8&oe=UTF-8) if you’re curious.
 
-Some numerology systems give special significance to the numbers 11, 22, and 33 (so called "Master Numbers"), but I don't plan to implement logic to check for those (yet).
+Some numerology systems give special significance to the numbers 11, 22, and 33 (so called “Master Numbers”), but I don’t plan to implement logic to check for those (yet).
 
 ## Languages
 
 ### Current Implementations
 
-Links go to the README for that language's implementation.
+Links go to the README for that language’s implementation.
 
 - [JavaScript](./code/javascript)
 
@@ -72,7 +72,7 @@ Links go to the README for that language's implementation.
 
 ### Planned Implementations
 
-Links go to the git branch for that language's implementation.
+Links go to the git branch for that language’s implementation.
 
 - ActionScript
 - Ada
@@ -130,7 +130,7 @@ Have other languages that you think would be fun and/or interesting to use? Plea
 
 ## Who?
 
-My name is Isaac Daniel Halvorson. My name number is `4` and my life number is `2`. I'm an iOS and web developer from Saint Paul, MN. You can visit [my website](http://hisaac.net/about.html) if you'd like to learn more or say hi.
+My name is Isaac Daniel Halvorson. My name number is `4` and my life number is `2`. I’m an iOS and web developer from Saint Paul, MN. You can visit [my website](http://hisaac.net/about.html) if you’d like to learn more or say hi.
 
 ## When?
 
