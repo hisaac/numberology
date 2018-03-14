@@ -3,6 +3,7 @@
 This repo contains simple implementations of basic [numerology](https://en.wikipedia.org/wiki/Numerology) in as many programming languages as I can learn. (Inspired by [The Hello World Collection](https://helloworldcollection.github.io))
 
 [![A painting by Gerard Seghers, titled "The Four Doctors of the Western Church, Saint Augustine of Hippo"][1]][2]
+
 <small>"The Four Doctors of the Western Church, Saint Augustine of Hippo" by [Gerard Seghers](https://en.wikipedia.org/wiki/Gerard_Seghers)</small>
 
 ## What?
