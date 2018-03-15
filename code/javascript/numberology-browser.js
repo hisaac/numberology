@@ -19,7 +19,7 @@ function numberology() {
 
 function getNumber(input) {
 	var fullNumber = 0;
-	for (character of input) {
+	for (var character of input) {
 		fullNumber += getCharacterNumber(character);
 	}
 	return reduce(fullNumber);
