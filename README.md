@@ -4,7 +4,24 @@ This repo contains simple implementations of basic [numerology](https://en.wikip
 
 [![A painting by Gerard Seghers, titled “The Four Doctors of the Western Church, Saint Augustine of Hippo”][1]][2]
 
+[1]:	https://upload.wikimedia.org/wikipedia/commons/c/c2/Gerard_Seghers_%28attr%29_-_The_Four_Doctors_of_the_Western_Church%2C_Saint_Augustine_of_Hippo_%28354–430%29.jpg
+[2]:	https://commons.wikimedia.org/wiki/File:Gerard_Seghers_(attr)_-_The_Four_Doctors_of_the_Western_Church,_Saint_Augustine_of_Hippo_(354–430).jpg
+
 “The Four Doctors of the Western Church, Saint Augustine of Hippo” by [Gerard Seghers](https://en.wikipedia.org/wiki/Gerard_Seghers)
+
+## Index
+
+- [What?](#what)
+- [Why?](#why)
+- [How?](#how)
+  - [The Numerology System](#the-numerology-system)
+- [Who?](#who)
+- [When?](#when)
+- [Where?](#where)
+- [Languages](#languages)
+  - [Current Implementations](#current-implementations)
+  - [In Progress Implementations](#in-progress-implementations)
+  - [Planned Implementations](#planned-implementations)
 
 ## What?
 
@@ -26,7 +43,7 @@ Writing it in Python made me want to do the same in the other languages I knew a
 
 The basics of numerology are simple to understand, and simple to write out on a piece of paper, yet not so simple to program (the best type of problem to solve in my opinion). There are many steps involved that our human brains can do quickly and easily that must be very explicitly stated to the computer.
 
-### The System
+### The Numerology System
 
 In numerology, each letter in the English alphabet is given a numerical value. Here is a table representing that:
 
@@ -45,7 +62,7 @@ Isaac Daniel Halvorson
 91113 415953 813469165 → 85 → 13 → 4
 ```
 
-The process process of reducing a number down to a single digit is known as finding a number’s [digital root](https://en.wikipedia.org/wiki/Digital_root).
+This process of reducing a number down to a single digit is known as finding a number’s [digital root](https://en.wikipedia.org/wiki/Digital_root).
 
 To find a user’s “Life Number”, we do the same process, but with the person’s birth date. Only the day, month, and year are needed.
 
@@ -58,6 +75,18 @@ I won’t go into the supposed significance of each final number, but you can [f
 
 Some numerology systems give special significance to the numbers 11, 22, and 33 (so called “Master Numbers”), but I don’t plan to implement logic to check for those (yet).
 
+## Who?
+
+My name is Isaac Daniel Halvorson. My name number is `4` and my life number is `2`. I’m an iOS and web developer from Saint Paul, MN. You can visit [my website](http://hisaac.net/about.html) if you’d like to learn more or say hi.
+
+## When?
+
+This project was started on March 12, 2018 (which reduces down to `9`).
+
+## Where?
+
+uhh… my computer and GitHub I guess?
+
 ## Languages
 
 ### Current Implementations
@@ -68,11 +97,11 @@ Links go to the README for that language’s implementation.
 
 ### In Progress Implementations
 
+Links go to the git branch for that language’s implementation.
+
 - [Python](https://github.com/hisaac/numberology/tree/python3/code/python3)
 
 ### Planned Implementations
-
-Links go to the git branch for that language’s implementation.
 
 - ActionScript
 - Ada
@@ -127,14 +156,3 @@ Links go to the git branch for that language’s implementation.
 - Visual Basic
 
 Have other languages that you think would be fun and/or interesting to use? Please [let me know](mailto:numberology@hisaac.net)!
-
-## Who?
-
-My name is Isaac Daniel Halvorson. My name number is `4` and my life number is `2`. I’m an iOS and web developer from Saint Paul, MN. You can visit [my website](http://hisaac.net/about.html) if you’d like to learn more or say hi.
-
-## When?
-
-This project was started on March 12, 2018 (which reduces down to `9`).
-
-[1]:	https://upload.wikimedia.org/wikipedia/commons/c/c2/Gerard_Seghers_%28attr%29_-_The_Four_Doctors_of_the_Western_Church%2C_Saint_Augustine_of_Hippo_%28354–430%29.jpg
-[2]:	https://commons.wikimedia.org/wiki/File:Gerard_Seghers_(attr)_-_The_Four_Doctors_of_the_Western_Church,_Saint_Augustine_of_Hippo_(354–430).jpg
