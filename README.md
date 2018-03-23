@@ -2,7 +2,7 @@
 	<a href="https://commons.wikimedia.org/wiki/File:Gerard_Seghers_(attr)_-_The_Four_Doctors_of_the_Western_Church,_Saint_Augustine_of_Hippo_(354–430).jpg">
 		<img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Gerard_Seghers_%28attr%29_-_The_Four_Doctors_of_the_Western_Church%2C_Saint_Augustine_of_Hippo_%28354–430%29.jpg" alt="A painting by Gerard Seghers, titled 'The Four Doctors of the Western Church, Saint Augustine of Hippo'" width="75%">
 	</a><br />
-	<caption><small><em>"The Four Doctors of the Western Church, Saint Augustine of Hippo" by <a href="https://en.wikipedia.org/wiki/Gerard_Seghers">Gerard Seghers</a></em></small></caption>
+	<caption><em>"The Four Doctors of the Western Church, Saint Augustine of Hippo" by <a href="https://en.wikipedia.org/wiki/Gerard_Seghers">Gerard Seghers</a></em></caption>
 </p>
 
 # Numberology
