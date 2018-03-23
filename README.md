@@ -1,27 +1,27 @@
-# Numberology
-
 <p align="center">
-  <a href="https://commons.wikimedia.org/wiki/File:Gerard_Seghers_(attr)_-_The_Four_Doctors_of_the_Western_Church,_Saint_Augustine_of_Hippo_(354–430).jpg">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Gerard_Seghers_%28attr%29_-_The_Four_Doctors_of_the_Western_Church%2C_Saint_Augustine_of_Hippo_%28354–430%29.jpg" alt="A painting by Gerard Seghers, titled 'The Four Doctors of the Western Church, Saint Augustine of Hippo'" width="75%">
-  </a><br />
-  <caption>"The Four Doctors of the Western Church, Saint Augustine of Hippo" by <a href="https://en.wikipedia.org/wiki/Gerard_Seghers">Gerard Seghers</a></caption>
+	<a href="https://commons.wikimedia.org/wiki/File:Gerard_Seghers_(attr)_-_The_Four_Doctors_of_the_Western_Church,_Saint_Augustine_of_Hippo_(354–430).jpg">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Gerard_Seghers_%28attr%29_-_The_Four_Doctors_of_the_Western_Church%2C_Saint_Augustine_of_Hippo_%28354–430%29.jpg" alt="A painting by Gerard Seghers, titled 'The Four Doctors of the Western Church, Saint Augustine of Hippo'" width="75%">
+	</a><br />
+	<caption><em>"The Four Doctors of the Western Church, Saint Augustine of Hippo" by <a href="https://en.wikipedia.org/wiki/Gerard_Seghers">Gerard Seghers</a></em></caption>
 </p>
 
-This repo contains simple implementations of basic [numerology](https://en.wikipedia.org/wiki/Numerology) in as many programming languages as I can learn. (Inspired by [The Hello World Collection](https://helloworldcollection.github.io))
+# Numberology
+
+Simple implementations of basic [numerology](https://en.wikipedia.org/wiki/Numerology) in as many programming languages as I can learn. (Inspired by [The Hello World Collection](https://helloworldcollection.github.io))
 
 ## Index
 
 - [What?](#what)
 - [Why?](#why)
 - [How?](#how)
-  - [The Numerology System](#the-numerology-system)
+	- [The Numerology System](#the-numerology-system)
 - [Who?](#who)
 - [When?](#when)
 - [Where?](#where)
 - [Languages](#languages)
-  - [Current Implementations](#current-implementations)
-  - [In Progress Implementations](#in-progress-implementations)
-  - [Planned Implementations](#planned-implementations)
+	- [Current Implementations](#current-implementations)
+	- [In Progress Implementations](#in-progress-implementations)
+	- [Planned Implementations](#planned-implementations)
 
 ## What?
 
@@ -47,11 +47,11 @@ The basics of numerology are simple to understand, and simple to write out on a 
 
 In numerology, each letter in the English alphabet is given a numerical value. Here is a table representing that:
 
-  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9
- :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-:
-  A  |  B  |  C  |  D  |  E  |  F  |  G  |  H  |  I
-  J  |  K  |  L  |  M  |  N  |  O  |  P  |  Q  |  R
-  S  |  T  |  U  |  V  |  W  |  X  |  Y  |  Z  |
+1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9
+:-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-:
+A  |  B  |  C  |  D  |  E  |  F  |  G  |  H  |  I
+J  |  K  |  L  |  M  |  N  |  O  |  P  |  Q  |  R
+S  |  T  |  U  |  V  |  W  |  X  |  Y  |  Z  |
 
 The two things we calculate are a person’s “Birth Number” and “Life Number”.
 
