@@ -1,10 +1,10 @@
-# JavaScript Numberology
-
 <p align="center">
 	<a href="https://commons.wikimedia.org/wiki/File:Unofficial_JavaScript_logo_2.svg">
 		<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="The JavaScript logo" width="33%">
 	</a>
 </p>
+
+# JavaScript Numberology
 
 I've implemented the Numberology algorithm here in two forms:
 
