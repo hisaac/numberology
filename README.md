@@ -99,6 +99,7 @@ Links go to the README for that language’s implementation.
 
 Links go to the git branch for that language’s implementation.
 
+- [BASIC](https://github.com/hisaac/numberology/tree/basic/code/basic)
 - [Python](https://github.com/hisaac/numberology/tree/python3/code/python3)
 
 ### Planned Implementations
@@ -109,7 +110,6 @@ Links go to the git branch for that language’s implementation.
 - AppleScript
 - Assembly
 - Bash
-- BASIC
 - C
 - C#
 - C++
